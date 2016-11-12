@@ -12,6 +12,7 @@
 		57E146531CE9C96C00201995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E146511CE9C96C00201995 /* Main.storyboard */; };
 		57E146551CE9C96C00201995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E146541CE9C96C00201995 /* Assets.xcassets */; };
 		57E146581CE9C96C00201995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E146561CE9C96C00201995 /* LaunchScreen.storyboard */; };
+		8156FB681DD67BDD00F301F1 /* hinh-nen-android-dep-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8156FB671DD67BDD00F301F1 /* hinh-nen-android-dep-8.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		57E146541CE9C96C00201995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57E146571CE9C96C00201995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57E146591CE9C96C00201995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8156FB671DD67BDD00F301F1 /* hinh-nen-android-dep-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hinh-nen-android-dep-8.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				57E146541CE9C96C00201995 /* Assets.xcassets */,
 				57E146561CE9C96C00201995 /* LaunchScreen.storyboard */,
 				57E146591CE9C96C00201995 /* Info.plist */,
+				8156FB671DD67BDD00F301F1 /* hinh-nen-android-dep-8.jpg */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					57E146491CE9C96C00201995 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -125,6 +129,7 @@
 				57E146581CE9C96C00201995 /* LaunchScreen.storyboard in Resources */,
 				57E146551CE9C96C00201995 /* Assets.xcassets in Resources */,
 				57E146531CE9C96C00201995 /* Main.storyboard in Resources */,
+				8156FB681DD67BDD00F301F1 /* hinh-nen-android-dep-8.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +260,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nvt.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +272,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nvt.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +295,7 @@
 				57E1465E1CE9C96C00201995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
